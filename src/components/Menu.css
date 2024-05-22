@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 30vh;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-item {
+  width: 100px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.menu-item.selected {
+  color: #fff;
+  background-color: #000000;
+  border-radius: 5px;
+}
+
+.scroll-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.scroll-button:hover {
+  color: #007bff;
+}
